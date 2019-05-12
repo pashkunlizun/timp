@@ -35,7 +35,7 @@ int find(derevo* t, int ciferki, list* l)
   if (t->square == NULL)
   {
     return 1;
-  }
+  } 
   while (1)
   {
     if (ll == NULL) 
