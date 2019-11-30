@@ -119,7 +119,6 @@ int depth1 = depth(n->left, deep + 1);
 int depth2 = depth(n->right, deep + 1);
 return (depth1 > depth2) ? depth1 : depth2;
 }
-
 void printstrr(struct strr * n, int current, int deep, int first)
 {
   if (current == deep)
